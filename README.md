@@ -29,7 +29,7 @@ Adicionalmente, el dispositivo incluye indicadores visuales con LEDs en los puer
 
 El programa opera mediante un esquema basado en dos estados: uno para gestionar las interrupciones por tiempo (SysTick) y otro para realizar la lectura y procesamiento de datos del ADC. Este sistema de estados asegura que las lecturas y actualizaciones se realicen de manera sincronizada y eficiente, alternando entre la adquisición de datos del sensor y la actualización de los displays e indicadores.
 
-<span>![</span><span> * insertar imagen *</span><span>]</span><span>(</span><span>https://https://raw.githubusercontent.com/echiseall/Detector-de-Inundaciones_STM32-Bluepill/master/image.png</span><span>)</span>
+![Detector](image.png)
 
 # Conclusión
 En conclusión, a lo largo de trabajo se desarrolló en el diseño y desarrollo de un sistema de detección y alerta de inundaciones en tiempo real, utilizando un microcontrolador STM32 Bluepill programado en bare-metal. El sistema integra un sensor de nivel de agua cuya señal analógica es procesada para calcular el porcentaje del nivel detectado, representado en displays de siete segmentos y acompañado por indicadores visuales con LEDs que reflejan diferentes niveles de alerta. Además, incluye una alarma sonora para niveles críticos.
